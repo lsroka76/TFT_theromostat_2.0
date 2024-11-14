@@ -1,6 +1,10 @@
-#ifndef gfx_system_h
-#define gfx_system_h
+#ifndef GFX_SYSTEM_H
+#define GFX_SYSTEM_H
 
-void init_gfx_system();
+void gfx_system_init();
+
+//bool lvgl_port_lock(int timeout_ms);
+
+//bool lvgl_port_unlock(void);
 
 #endif

@@ -18,6 +18,7 @@
 #define TempDisplay_h
 
 #include <Arduino.h>
+#include <SuplaDevice.h>
 #include <supla/sensor/thermometer.h>
 #include <supla/storage/storage.h>
 #include <supla/actions.h>
